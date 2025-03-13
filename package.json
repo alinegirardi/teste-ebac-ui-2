@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/alinegirardi/teste-ebac-ui-2#readme",
   "dependencies": {
+    "@faker-js/faker": "^9.6.0",
     "cypress": "^13.6.0"
   }
 }

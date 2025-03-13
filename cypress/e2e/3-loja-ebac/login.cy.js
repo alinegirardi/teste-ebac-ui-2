@@ -8,9 +8,9 @@ describe('Funcionalidade: Login', () =>{
     });
 
     afterEach(() => {
-        cy.screenshot()
+        //cy.screenshot()
     });
-    
+
     it('Deve fazer login com sucesso', () => {
         cy.get('#username').type('aline.teste@teste.com.br')
         cy.get('#password').type('teste@123')
