@@ -50,7 +50,7 @@ describe('Funcionalidade: Login', () =>{
         })
     });
 
-    it.only ('Deve fazer login com sucesso - Usando Comandos customizado', () => {
+    it ('Deve fazer login com sucesso - Usando Comandos customizado', () => {
         cy.login ('aline.teste@teste.com.br','teste@123' )
         cy.get('.page-title').should('contain', 'Minha conta')
     })
